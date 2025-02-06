@@ -1,0 +1,60 @@
+.menu{
+    .selection{
+        text-align: center;
+        font-size: 1.2em;
+        margin-bottom: 70px;
+        border-bottom: 2px solid #EF0031;
+        flex-wrap: wrap;
+
+        
+            li {
+                &:hover a, 
+                a.active {
+                    border-radius: 3px 3px 0 0;
+                    background: #EF0031;
+                    color: #FFFFFF;
+                }
+                margin-bottom: 10px;
+                margin-top: 50px;
+        
+                > a {
+                    padding: 15px 30px;
+                    text-decoration: none !important;
+                    color: black;
+                }
+            }
+        
+        
+    }
+    .name{
+        margin-bottom: 30px;
+    }
+
+    .card-holder{
+        column-gap: 3rem;
+    }
+    .right-side{
+        min-height: 90px;
+        width: 100%;
+    }
+    .color-red{
+        color: red;
+    }
+    .hover-special{
+        &:hover {
+            border: 2px solid green;
+        }
+    }
+    &::after{
+    content: '';
+    height: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    background: url(../../images/triangle_bg.png.webp) repeat-x;
+    background-size: 26px 10px;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    }
+}

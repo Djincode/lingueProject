@@ -1,0 +1,86 @@
+.best-sellers{
+    min-height: 150vh;
+    background: url(../../images/sellers-1-1600x1600.jpg.webp) no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    &::after{
+        content:"" ;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.815);
+
+    }
+    &::before{
+        content: '';
+        height: 10px;
+        position: absolute;
+        bottom: 0px;
+        z-index: 500;
+        left: 0;
+        right: 0;
+        background: url(../../images/triangle_bg.png.webp) repeat-x;
+        background-size: 26px 10px;
+    }
+    .best-header{
+        display: flex;
+        align-items: center;
+        position: relative;
+        z-index: 500;
+        flex-direction: column;
+    }
+
+    .z-index{
+        z-index: 500;
+        position: relative;
+        justify-content: center;
+    }
+    .my-card{
+        background-color: transparent !important;
+        max-width: 215px;
+        align-items: center;
+        position: relative;
+    }
+    .card-img-top{
+        width: 12.5rem;
+        height: 12.5rem;
+    }
+
+    .custom-btn{
+        border-radius: 0px !important;
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .card-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+   .ribbon-cont{
+    display: inline-block;
+    padding: 0px 75px 0px 0px;
+    position: absolute;
+    color: white;
+    top: 25%;
+    left: 20px;
+    z-index: 1;
+    line-height: 0;
+    font-size: 1.07em;
+    .ribbon,.primary{
+        position: absolute;
+        border: 15px solid #F1002A;
+        border-left: 0;
+        border-right: 15px solid transparent;
+        width: 100%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    }
+   }
+
+

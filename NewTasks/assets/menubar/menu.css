@@ -1,0 +1,51 @@
+.menu .selection {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 70px;
+  border-bottom: 2px solid #EF0031;
+  flex-wrap: wrap;
+}
+.menu .selection li {
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.menu .selection li:hover a,
+.menu .selection li a.active {
+  border-radius: 3px 3px 0 0;
+  background: #EF0031;
+  color: #FFFFFF;
+}
+.menu .selection li > a {
+  padding: 15px 30px;
+  text-decoration: none !important;
+  color: black;
+}
+.menu .name {
+  margin-bottom: 30px;
+}
+.menu .card-holder {
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+}
+.menu .right-side {
+  min-height: 90px;
+  width: 100%;
+}
+.menu .color-red {
+  color: red;
+}
+.menu .hover-special:hover {
+  border: 2px solid green;
+}
+.menu::after {
+  content: "";
+  height: 10px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  background: url(../../images/triangle_bg.png.webp) repeat-x;
+  background-size: 26px 10px;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}/*# sourceMappingURL=menu.css.map */

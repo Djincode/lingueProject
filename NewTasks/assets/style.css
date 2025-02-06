@@ -1,0 +1,28 @@
+@import url(./navbar/navbar.css);
+@import url(./storysection/storysection.css);
+@import url(./best-sellers-home/best-sellers.css);
+@import url(./menubar/menu.css);
+@import url(./footer/footer.css);
+@import url('https://fonts.cdnfonts.com/css/beyond-the-mountains');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.font-beyond{
+    font-family: 'Beyond The Mountains', sans-serif;
+                                                
+}
+
+.pizzaandpasta{
+    font-size: 6em;
+    margin: 30px 0px;
+}
+
+section{
+    padding: 100px 0 70px;
+}
+
+
